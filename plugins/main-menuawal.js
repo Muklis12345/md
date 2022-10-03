@@ -89,9 +89,9 @@ let wib = moment.tz('Asia/Jakarta').format('HH:mm:ss')
     //kata
     let kata = `${pickRandom('Bᴀɴʏᴀᴋ ʙᴀɴʏᴀᴋ ᴍɪɴᴜᴍ..','I ʟᴏᴠᴇ ʏᴏᴜ','Jᴀɴɢᴀɴ ᴛɪɴɢɢᴀʟɪɴ ᴀᴋᴜ','Aᴋᴜ sʏᴀɴɢ ᴋᴀᴜ ᴛᴀᴘɪ..','Nɢᴇʀᴏᴋᴏᴋ ɢᴀᴋ?','Uᴅᴀʜ ᴅᴏɴᴀsɪ ʙᴇʟᴜᴍ?','Mᴀᴜ sᴇᴡᴀʜ ɢᴀᴋ ɴɪʜ','Oᴜʜʜ ɢɪᴛᴜᴜ,Cᴜᴋᴜᴘ ᴛᴀᴜ','Dᴀʀɪ ᴍᴀɴᴀ ᴀsᴀʟ ᴍᴜ?','Jᴀɴɢᴀɴ ʟᴜᴘᴀ ᴍᴀɴᴅɪ ʏᴀ','Hᴜᴜᴜᴜ....','Uᴅᴀʜ ᴍᴀᴋᴀɴ?','Gᴀᴋ ᴍᴀᴋᴀɴ sᴀᴋɪᴛ ɴᴛᴀʀ','Mᴀɴᴅɪ sᴀɴᴀ ᴡᴏᴇ','Jᴀᴍ ʙᴇʀᴀᴘᴀ sᴋᴀʀᴀɴɢ?','Hᴀʟᴏᴏᴡ')}`
 /*conn.sendButton(m.chat, `*${ucapan()}, ${name} 👋*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://facebook.com/sadtime098",
+    mediaUrl: "1",
     mediaType: "VIDEO",
-    description: "https://facebook.com/sadtime098",
+    description: "2",
     title: `${pickRandom('Halo Apa Kabar?')}`,
     body: wm,
     thumbnail: fs.readFileSync('./thumbnail.jpg'),
