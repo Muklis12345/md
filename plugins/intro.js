@@ -37,11 +37,11 @@ let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•═════════════�
 `
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
-conn.sendButtonDoc(m.chat, krtu, 'Script : https://youtube.com/channel/UCjoPsysjCn2Qa0dRalUb2mg\nSubs Tod!!','MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+conn.sendButtonDoc(m.chat, krtu, 'Script : https://youtube.com/channel/UCkZLb5xzRxdweFWYCGx9XEw\nSubs Tod!!','MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://youtube.com/channel/UCkZLb5xzRxdweFWYCGx9XEw",
     mediaType: "VIDEO",
-    description: "https://youtube.com/channel/UCkZLb5xzRxdweFWYCGx9XEw", 
-    title: 'Al? Offc',
+    description: "https://youtu.be/4vzO95q5rUY", 
+    title: 'Klis Preset',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
