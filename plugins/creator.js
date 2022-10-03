@@ -6,7 +6,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
  let tag = `@${m.sender.split('@')[0]}`
  let ftroli = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 9999999999, status: 1, surface: 1, message: `${command} ${type}`, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
-  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙;;;\nFN:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nORG:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nTITLE:\nitem1.TEL;waid=6281361281833:+62 813-6128-1833\nitem1.X-ABLabel:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:Aʟᴅɪ Lᴇsᴍᴀɴᴀ⸙\nEND:VCARD`
+  let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Kliss Ganzzz;;;\nFN:Kliss Ganzzz⸙\nORG:Kliss Ganzzz⸙\nTITLE:\nitem1.TEL;waid=6285838142263:+62 858-3814-2263\nitem1.X-ABLabel:Kliss Ganzzz⸙\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:Kliss Ganzzz⸙\nEND:VCARD`
 //------- NOMOR
  const pp = fs.readFileSync('./media/own.jpg')
   let nowner1 = `${nomorown1.split`@`[0]}@s.whatsapp.net`
@@ -21,30 +21,30 @@ let teksnomor = (
 ┆`
 )
 //------------ BIO
-let ppown = await conn.profilePictureUrl(nomorown1 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1])
-let teksbio = `┆⫹⫺ 💌 Nama : Aldi
-┆⫹⫺ ✉️ Nama RL : HAMBA ALLAH
+let ppown = await conn.profilePictureUrl(6285838142263 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1])
+let teksbio = `┆⫹⫺ 💌 Nama : Muklis
+┆⫹⫺ ✉️ Nama RL : Klis
 ┆⫹⫺ ♂️ Gender : Pria
 ┆⫹⫺ 🕋 Agama : Islam
-┆⫹⫺ ⏰ Tanggal lahir : 16 - 10 - 2007
+┆⫹⫺ ⏰ Tanggal lahir : 07 - 04 - 2007
 ┆⫹⫺ 🎨 Umur : 15
-┆⫹⫺ 🧮 Kelas : IX
-┆⫹⫺ 🧩 Hobby : 𝙼𝚘𝚍𝚒𝚏𝚒𝚔𝚊𝚜𝚒 𝚙𝚎𝚛𝚊𝚗𝚐𝚔𝚊𝚝 𝚕𝚞𝚗𝚊𝚔
+┆⫹⫺ 🧮 Kelas : X
+┆⫹⫺ 🧩 Hobby : 𝙱𝚘𝚕𝚊
 ┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
-┆⫹⫺ 🗺️ Tinggal : Indonesia, Sumatera Utara
+┆⫹⫺ 🗺️ Tinggal : Indonesia, Lampung Utara
 └––––––––––––·•
 `
-let ppown2 = await conn.profilePictureUrl(nomorown2 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
-let teksbio2 = `┆⫹⫺ 💌 Nama : Aisyah
-┆⫹⫺ ✉️ Nama RL : HAMBA ALLAH
-┆⫹⫺ ♂️ Gender : Wanita
+let ppown2 = await conn.profilePictureUrl(6285838571629 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
+let teksbio2 = `┆⫹⫺ 💌 Nama : Muklis2
+┆⫹⫺ ✉️ Nama RL : Klis
+┆⫹⫺ ♂️ Gender : Pria
 ┆⫹⫺ 🕋 Agama : Islam
-┆⫹⫺ ⏰ Tanggal lahir : 07 - 05 - 2007
+┆⫹⫺ ⏰ Tanggal lahir : 07 - 04 - 2007
 ┆⫹⫺ 🎨 Umur : 15
-┆⫹⫺ 🧮 Kelas : IX
-┆⫹⫺ 🧩 Hobby : Banyak
+┆⫹⫺ 🧮 Kelas : X
+┆⫹⫺ 🧩 Hobby : Bola
 ┆⫹⫺ 💬 Sifat : ASIK,BAIK,RAMAH
-┆⫹⫺ 🗺️ Tinggal : Indonesia, Bengkulu
+┆⫹⫺ 🗺️ Tinggal : Indonesia, Lampung Utara
 └––––––––––––·•
 `
 
@@ -63,8 +63,8 @@ title: `⫹⫺ Oᴛʜᴇʀ ⫹⫺`,
 rows: [
 {title: "⸙ Kontak", rowId: ".owner kontak"},
 {title: "⸙ Nomor", rowId: ".owner nomor"},
-{title: "⸙ Biodata Aldi", rowId: ".owner bio"},
-{title: "⸙ Biodata Aisyah", rowId: ".owner bio2"},
+{title: "⸙ Biodata Muklis1", rowId: ".owner bio"},
+{title: "⸙ Biodata Muklis2", rowId: ".owner bio2"},
 {title: "⸙ Script", rowId: ".sc"},
 ]}, {
 title: `⬔ Sᴜᴘᴘᴏʀᴛ Mᴇ ⬔`,
@@ -96,7 +96,7 @@ await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard
                 ['Menu', `${usedPrefix}menu`]
             ], m, { contextInfo: { mentionedJid: [nomorown1] }})*/
  conn.send2ButtonImg(m.chat, fs.readFileSync('./media/own.jpg').buffer, teksnomor, `Halo ${tag}\nIᴛᴜ Oᴡɴᴇʀ Kᴜ⫺⫰⫹\n` + botdate, `Sewa Bot`, `.sewa`, 'Menu', `.menu`, ftroli, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com/_b4c00t4an_s3l3b',
+    mediaUrl: 'https://instagram.com/klia_jbff',
     mediaType: 2, 
     description: sgc,
     title: "Join Sini Juga Cuy!",
@@ -109,7 +109,7 @@ await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard
             case 'bio':
           //conn.sendHydrated(m.chat, teksbio, wm, ppown, sig, "📷 Instagram", nomorown, '🌹 Nomor', [[null, null], [null, null],[null,null]], m)
 
-   conn.sendButton(m.chat, '┍┈༺ *𝙱𝚒𝚘𝙳𝚊𝚝𝚊 𝙰𝚕𝚍𝚒* ༻', teksbio, ppown, [
+   conn.sendButton(m.chat, '┍┈༺ *𝙱𝚒𝚘𝙳𝚊𝚝𝚊 𝙼𝚞𝚔𝚕𝚒𝚜1* ༻', teksbio, ppown, [
                 ['Sewa Bot', `${usedPrefix}sewa`],
                 ['Menu', `${usedPrefix}menu`]
             ], m)
@@ -117,7 +117,7 @@ await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard
                         case 'bio2':
           //conn.sendHydrated(m.chat, teksbio, wm, ppown, sig, "📷 Instagram", nomorown, '🌹 Nomor', [[null, null], [null, null],[null,null]], m)
 
-          conn.sendButton(m.chat, '┍┈༺ *𝙱𝚒𝚘𝙳𝚊𝚝𝚊 𝙰𝚒𝚜𝚢𝚊𝚑* ༻', teksbio2, ppown2, [
+          conn.sendButton(m.chat, '┍┈༺ *𝙱𝚒𝚘𝙳𝚊𝚝𝚊 𝙼𝚞𝚔𝚕𝚒𝚜1* ༻', teksbio2, ppown2, [
                 ['Sewa Bot', `${usedPrefix}sewa`],
                 ['Menu', `${usedPrefix}menu`]
             ], m)
