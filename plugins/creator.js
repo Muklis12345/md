@@ -9,15 +9,15 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Kliss Ganzzz;;;\nFN:Kliss Ganzzz⸙\nORG:Kliss Ganzzz⸙\nTITLE:\nitem1.TEL;waid=6285838142263:+62 858-3814-2263\nitem1.X-ABLabel:Kliss Ganzzz⸙\nX-WA-BIZ-DESCRIPTION:${htjava} Tᴀᴋ ᴍᴇɴᴇʀɪᴍᴀ sᴀᴠᴇ ᴋᴏɴᴛᴀᴋ!!\nX-WA-BIZ-NAME:Kliss Ganzzz⸙\nEND:VCARD`
 //------- NOMOR
  const pp = fs.readFileSync('./media/own.jpg')
-  let nowner1 = `${nomorown1.split`@`[0]}@s.whatsapp.net`
-  let nowner2 = `${nomorown2.split`@`[0]}@s.whatsapp.net`
+  let nowner1 = `${6285838142263.split`@`[0]}@s.whatsapp.net`
+  let nowner2 = `${6285838571629.split`@`[0]}@s.whatsapp.net`
 let teksnomor = (
 `╳ ── ◸ *Mʏ Oᴡɴᴇʀ* ◹ ── ╳
-⟣⟮ *${nameown1}* ⟯⟢
-⟬ @${nomorown1.split`@`[0]} ⟭
+⟣⟮ *${Muklis1}* ⟯⟢
+⟬ @${6285838142263.split`@`[0]} ⟭
 ┆
-⟣⟮ *${nameown2}* ⟯⟢
-⟬ @${nomorown2.split`@`[0]} ⟭
+⟣⟮ *${Muklis2}* ⟯⟢
+⟬ @${6285838571629.split`@`[0]} ⟭
 ┆`
 )
 //------------ BIO
