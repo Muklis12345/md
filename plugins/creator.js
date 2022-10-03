@@ -21,7 +21,7 @@ let teksnomor = (
 ┆`
 )
 //------------ BIO
-let ppown = await conn.profilePictureUrl(6285838142263 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1])
+let ppown1 = await conn.profilePictureUrl(6285838142263 + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1])
 let teksbio = `┆⫹⫺ 💌 Nama : Muklis
 ┆⫹⫺ ✉️ Nama RL : Klis
 ┆⫹⫺ ♂️ Gender : Pria
