@@ -470,13 +470,13 @@ await conn.sendFile(m.chat, audio, 'error.mp3', null, fkontak, true, {
 type: 'audioMessage', 
 ptt: false, seconds: 0,contextInfo: {
          externalAdReply: { showAdAttribution: true,
- mediaUrl: 'www.instagram.com/hyuura-official',
+ mediaUrl: 'www.instagram.com/klis_jbff',
     mediaType: 2, 
-    description: 'www.instagram.com/hyuura-official',
+    description: 'www.instagram.com/klis_jbff',
     title: "Now Playing...",
     body: wm,
     thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
-    sourceUrl: 'www.instagram.com/hyuura-official'
+    sourceUrl: 'www.instagram.com/klisjbff'
  	  /*   sourceUrl: sig,
            title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
             body: 'Now Playing...', 
