@@ -17,7 +17,7 @@ let stiker = await sticker(null, global.API(`https://telegra.ph/file/d34b2ab2cb2
           showAdAttribution: true,
     mediaUrl: sgc,
     mediaType: 2,
-    description: '𝑨𝒍𝒅𝒊 𝑿 𝑨𝒊𝒔𝒚𝒂𝒉', 
+    description: 'Muklis', 
     title: `${command} Sedang Di Proses`,
     body: botdate,
     thumbnail: await(await fetch(pp)).buffer(),
@@ -31,13 +31,13 @@ await conn.sendFile(m.chat, audio, 'error.mp3', null, fkontak, true, {
 type: 'audioMessage', 
 ptt: false, seconds: 0,contextInfo: {
          externalAdReply: { showAdAttribution: true,
- mediaUrl: 'www.instagram.com/hyuura-official',
+ mediaUrl: '1',
     mediaType: 2, 
-    description: 'www.instagram.com/hyuura-official',
+    description: '2',
     title: "Now Playing...",
     body: wm,
     thumbnail: await (await fetch('https://telegra.ph/file/c72133b197a68d3ea514d.jpg')).buffer(),
-    sourceUrl: 'www.instagram.com/hyuura-official'
+    sourceUrl: '1'
  	  /*   sourceUrl: sig,
            title: '◄⟬ ●━━━ ⧏ ⧎ ⧐ ━━━● ⟭►',  
             body: 'Now Playing...', 
